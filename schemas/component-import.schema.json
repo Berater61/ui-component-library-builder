@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local/component-import.schema.json",
+  "title": "Component Import",
+  "type": "object",
+  "required": ["schemaVersion", "name", "category", "subcategory", "renderMode", "description"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "const": 1 },
+    "id": { "type": "string" },
+    "name": { "type": "string", "minLength": 1 },
+    "slug": { "type": "string" },
+    "itemType": {
+      "type": "string",
+      "enum": ["foundation", "pattern", "component", "section", "page", "reference"]
+    },
+    "category": { "type": "string" },
+    "subcategory": { "type": "string" },
+    "description": { "type": "string" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "contexts": { "type": "array", "items": { "type": "string" } },
+    "styles": { "type": "array", "items": { "type": "string" } },
+    "status": {
+      "type": "string",
+      "enum": ["reference", "needs-code", "needs-review", "needs-implementation", "implemented", "deprecated", "deleted"]
+    },
+    "renderMode": {
+      "type": "string",
+      "enum": ["html", "react", "image", "external", "placeholder"]
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "author": { "type": "string" },
+        "license": { "type": "string" },
+        "isExternalReference": { "type": "boolean" }
+      }
+    },
+    "code": {
+      "type": "object",
+      "properties": {
+        "html": { "type": "string" },
+        "css": { "type": "string" },
+        "javascript": { "type": "string" },
+        "tsx": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "itemTypes": [
+    "foundation",
+    "pattern",
+    "component",
+    "section",
+    "page",
+    "reference"
+  ],
+  "categories": [
+    {
+      "id": "foundations-and-design",
+      "name": "Foundations & Design",
+      "enabled": true,
+      "order": 10,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "background-pattern",
+        "animated-background",
+        "gradient",
+        "texture",
+        "typography",
+        "color-palette",
+        "shadow-style",
+        "border-style",
+        "divider"
+      ]
+    },
+    {
+      "id": "layout-and-structure",
+      "name": "Layout & Struktur",
+      "enabled": true,
+      "order": 20,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "grid",
+        "container",
+        "layout-shell",
+        "split-layout",
+        "stack",
+        "divider"
+      ]
+    },
+    {
+      "id": "navigation",
+      "name": "Navigation",
+      "enabled": true,
+      "order": 30,
+      "selectionMode": "single",
+      "required": false,
+      "subcategories": [
+        "navbar",
+        "dropdown-menu",
+        "mega-menu",
+        "mobile-drawer",
+        "menu-trigger",
+        "breadcrumb",
+        "tabs",
+        "pagination",
+        "sidebar-navigation",
+        "language-switcher"
+      ]
+    },
+    {
+      "id": "buttons-and-actions",
+      "name": "Buttons & Aktionen",
+      "enabled": true,
+      "order": 40,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "standard-button",
+        "icon-button",
+        "button-group",
+        "cta-button",
+        "save-button",
+        "download-button",
+        "copy-button",
+        "delete-button",
+        "animated-button"
+      ]
+    },
+    {
+      "id": "inputs-and-selection",
+      "name": "Inputs & Auswahl",
+      "enabled": true,
+      "order": 50,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "input",
+        "textarea",
+        "select",
+        "checkbox",
+        "radio-button",
+        "toggle-switch",
+        "theme-toggle",
+        "icon-toggle",
+        "binary-choice",
+        "segmented-control",
+        "comparison-toggle",
+        "slider",
+        "file-upload"
+      ]
+    },
+    {
+      "id": "content-and-data-display",
+      "name": "Content & Datenanzeige",
+      "enabled": true,
+      "order": 60,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "card",
+        "blog-card",
+        "service-card",
+        "product-card",
+        "accordion",
+        "details-list",
+        "chart",
+        "table",
+        "statistics",
+        "carousel",
+        "gallery"
+      ]
+    },
+    {
+      "id": "feedback-and-status",
+      "name": "Feedback & Status",
+      "enabled": true,
+      "order": 70,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "alert",
+        "badge",
+        "progress-bar",
+        "loader",
+        "toast",
+        "tooltip",
+        "empty-state",
+        "success-state",
+        "error-state",
+        "confirmation-dialog"
+      ]
+    },
+    {
+      "id": "marketing-and-communication",
+      "name": "Marketing & Kommunikation",
+      "enabled": true,
+      "order": 80,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "announcement-bar",
+        "banner",
+        "hero-section",
+        "cta-section",
+        "feature-section",
+        "service-section",
+        "about-section",
+        "testimonial-section",
+        "logo-cloud",
+        "pricing-section",
+        "faq-section",
+        "newsletter-section",
+        "contact-section"
+      ]
+    },
+    {
+      "id": "forms",
+      "name": "Formulare",
+      "enabled": true,
+      "order": 90,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "contact-form",
+        "login-form",
+        "registration-form",
+        "newsletter-form",
+        "search-form",
+        "checkout-form",
+        "multi-step-form",
+        "feedback-form"
+      ]
+    },
+    {
+      "id": "ecommerce",
+      "name": "E-Commerce",
+      "enabled": true,
+      "order": 100,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "cart",
+        "product-card",
+        "product-gallery",
+        "checkout",
+        "quantity-selector",
+        "order-summary"
+      ]
+    },
+    {
+      "id": "page-sections",
+      "name": "Seitenbereiche",
+      "enabled": true,
+      "order": 110,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "hero-section",
+        "feature-section",
+        "service-section",
+        "about-section",
+        "contact-section",
+        "footer-section"
+      ]
+    },
+    {
+      "id": "complete-pages",
+      "name": "Komplette Seiten",
+      "enabled": true,
+      "order": 120,
+      "selectionMode": "single",
+      "required": false,
+      "subcategories": [
+        "landing-page",
+        "contact-page",
+        "portfolio-page",
+        "blog-page",
+        "checkout-page"
+      ]
+    },
+    {
+      "id": "unsorted",
+      "name": "Unsortiert",
+      "enabled": true,
+      "order": 999,
+      "selectionMode": "multi",
+      "required": false,
+      "subcategories": [
+        "unknown"
+      ]
+    }
+  ],
+  "contexts": [
+    "application",
+    "marketing",
+    "ecommerce",
+    "portfolio",
+    "dashboard",
+    "blog",
+    "gaming",
+    "artistic",
+    "corporate"
+  ],
+  "styles": [
+    "minimal",
+    "modern",
+    "futuristic",
+    "neobrutalism",
+    "glassmorphism",
+    "skeuomorphism",
+    "retro",
+    "playful",
+    "corporate",
+    "artistic",
+    "technical",
+    "mystical",
+    "dark",
+    "light"
+  ],
+  "screenshotCategoryMap": {
+    "Accordions": {
+      "category": "content-and-data-display",
+      "subcategory": "accordion"
+    },
+    "Alerts": {
+      "category": "feedback-and-status",
+      "subcategory": "alert"
+    },
+    "Announcements": {
+      "category": "marketing-and-communication",
+      "subcategory": "announcement-bar"
+    },
+    "Badges": {
+      "category": "feedback-and-status",
+      "subcategory": "badge"
+    },
+    "Banners": {
+      "category": "marketing-and-communication",
+      "subcategory": "banner"
+    },
+    "Blog Cards": {
+      "category": "content-and-data-display",
+      "subcategory": "blog-card"
+    },
+    "Breadcrumbs": {
+      "category": "navigation",
+      "subcategory": "breadcrumb"
+    },
+    "Button Groups": {
+      "category": "buttons-and-actions",
+      "subcategory": "button-group"
+    },
+    "Buttons": {
+      "category": "buttons-and-actions",
+      "subcategory": "standard-button"
+    },
+    "Cards": {
+      "category": "content-and-data-display",
+      "subcategory": "card"
+    },
+    "Carts": {
+      "category": "ecommerce",
+      "subcategory": "cart"
+    },
+    "Charts": {
+      "category": "content-and-data-display",
+      "subcategory": "chart"
+    },
+    "Checkboxes": {
+      "category": "inputs-and-selection",
+      "subcategory": "checkbox"
+    },
+    "Contact Forms": {
+      "category": "forms",
+      "subcategory": "contact-form"
+    },
+    "CTAs": {
+      "category": "marketing-and-communication",
+      "subcategory": "cta-section"
+    },
+    "Details Lists": {
+      "category": "content-and-data-display",
+      "subcategory": "details-list"
+    },
+    "Dividers": {
+      "category": "foundations-and-design",
+      "subcategory": "divider"
+    },
+    "Dropdowns": {
+      "category": "navigation",
+      "subcategory": "dropdown-menu"
+    },
+    "Empty States": {
+      "category": "feedback-and-status",
+      "subcategory": "empty-state"
+    },
+    "Inputs": {
+      "category": "inputs-and-selection",
+      "subcategory": "input"
+    },
+    "Progress Bars": {
+      "category": "feedback-and-status",
+      "subcategory": "progress-bar"
+    },
+    "Selects": {
+      "category": "inputs-and-selection",
+      "subcategory": "select"
+    }
+  }
+}

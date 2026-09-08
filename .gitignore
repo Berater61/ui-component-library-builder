@@ -1,0 +1,30 @@
+node_modules/
+.next/
+out/
+coverage/
+
+.env
+.env.*
+!.env.example
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+next-dev.log
+next-dev.err.log
+
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
+
+# Local browser profiles and visual test output
+chrome-profile-check*/
+*-check*.png
+
+# Local staging/export folders and raw intake archives
+*-stage/
+Berat-Builder-fuer-Kollegen-*/
+imports/components/packages/
+imports/*.odt
